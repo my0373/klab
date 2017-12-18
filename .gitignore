@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+*.pyc
+*.retry
+*.db
+*.key
+id_rsa
+id_rsa.pub
+.idea/

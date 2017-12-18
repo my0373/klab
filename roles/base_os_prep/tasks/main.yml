@@ -1,0 +1,5 @@
+---
+## Test connectivity to the node
+  - name: "Testing ssh connectivity to the host"
+    include: test_connectivity.yml
+

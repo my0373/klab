@@ -1,0 +1,5 @@
+---
+- name: Attempt to prepare the base OS for the lab
+  hosts:  all
+  roles:
+    - { role: base_os_prep }
