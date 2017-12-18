@@ -1,0 +1,5 @@
+## Hosts to be used during Ansible run
+
+[hypervisors]
+## The bare metal hypervisors to be configured
+localhost	ansible_connection=local
