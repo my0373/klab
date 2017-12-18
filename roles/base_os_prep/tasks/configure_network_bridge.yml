@@ -1,0 +1,11 @@
+---
+  - name: "Configure bridge on {{ inventory_hostname }}"
+    block:
+      - service:
+        name: NetworkManager
+        enabled: no
+        state: stopped
+
+
+
+
